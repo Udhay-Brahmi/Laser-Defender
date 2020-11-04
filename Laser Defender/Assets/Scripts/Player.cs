@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         SetUpMoveBoundaries();
+        StartCoroutine(PrintAndWait());
     }
 
    
@@ -28,6 +29,14 @@ public class Player : MonoBehaviour
     {
         Move();
         Fire();
+    }
+
+    IEnumerator PrintAndWait()
+    {
+        Debug.Log("First message.");
+        yield return new WaitForSeconds(3);
+        Debug.Log("The second message.");
+
     }
 
     private void Fire()
