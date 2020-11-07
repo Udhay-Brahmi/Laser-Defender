@@ -128,6 +128,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4799721797396447808, guid: 2fa87234dfa0742ffa4871a943fc6313,
+        type: 3}
+      propertyPath: laserPrefab
+      value: 
+      objectReference: {fileID: 1670115126730629890, guid: e89c910232d8b43d0b28be1b8741c89e,
+        type: 3}
     - target: {fileID: 4799721797396447811, guid: 2fa87234dfa0742ffa4871a943fc6313,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -648,6 +654,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2aa4092f773f641f6b52432310ca3caa, type: 2}
   - {fileID: 11400000, guid: e9b928fcbd3454e019c860cffb3ea95f, type: 2}
   startingWave: 0
+  looping: 1
 --- !u!4 &1931291143
 Transform:
   m_ObjectHideFlags: 0
