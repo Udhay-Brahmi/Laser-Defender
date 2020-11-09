@@ -9982,6 +9982,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -270, y: -90, z: 89.99999}
+--- !u!1001 &1767009257
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6855003582405312826, guid: 94f3ac8fef93149a5bc7b5f64c8290c1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855003582405312826, guid: 94f3ac8fef93149a5bc7b5f64c8290c1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855003582405312826, guid: 94f3ac8fef93149a5bc7b5f64c8290c1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855003582405312826, guid: 94f3ac8fef93149a5bc7b5f64c8290c1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855003582405312826, guid: 94f3ac8fef93149a5bc7b5f64c8290c1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855003582405312826, guid: 94f3ac8fef93149a5bc7b5f64c8290c1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855003582405312826, guid: 94f3ac8fef93149a5bc7b5f64c8290c1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855003582405312826, guid: 94f3ac8fef93149a5bc7b5f64c8290c1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855003582405312826, guid: 94f3ac8fef93149a5bc7b5f64c8290c1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855003582405312826, guid: 94f3ac8fef93149a5bc7b5f64c8290c1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855003582405312826, guid: 94f3ac8fef93149a5bc7b5f64c8290c1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855003582405312831, guid: 94f3ac8fef93149a5bc7b5f64c8290c1,
+        type: 3}
+      propertyPath: m_Name
+      value: Explosion Particles
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94f3ac8fef93149a5bc7b5f64c8290c1, type: 3}
 --- !u!1 &1869208781 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4909831295547154246, guid: c128873d2ff6145dcad8f94ba8285f99,
