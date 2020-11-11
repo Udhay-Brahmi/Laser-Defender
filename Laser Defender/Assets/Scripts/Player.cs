@@ -6,13 +6,13 @@ public class Player : MonoBehaviour
 {
     //Config
     [Header("Player Movement")]
-    [SerializeField] float moveSpeed = 10f;
+    [SerializeField] float moveSpeed = 12f;
     [SerializeField] float padding = 1f;
     [SerializeField] int health = 200;
     [SerializeField] AudioClip deathSound;
-    [SerializeField] [Range(0, 1)] float deathSoundVolume = 0.75f;
+    [SerializeField] [Range(0, 1)] float deathSoundVolume = 0.95f;
     [SerializeField] AudioClip shootSound;
-    [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.25f;
+    [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.35f;
 
     [Header("Projectile")]
     [SerializeField] GameObject laserPrefab;
@@ -107,8 +107,8 @@ public class Player : MonoBehaviour
     {
         Camera gameCamera = Camera.main;
         xMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x + padding;
-        xMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x - padding;
+        xMax = gameCamera.ViewportToWorldPoint(new Vector3(2, 0, 0)).x - padding;
         yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + padding;
-        yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y + padding;
+        yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 2, 0)).y + padding;
     }
 }
